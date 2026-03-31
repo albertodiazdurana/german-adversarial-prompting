@@ -1,0 +1,15 @@
+# Exclude everything by default
+*
+
+# Allow these public directories and files
+!.gitignore
+!README.md
+!notebooks/
+!notebooks/**
+!results/
+!results/**
+!assignment/
+!assignment/**
+
+# Always exclude secrets and environment
+.env
